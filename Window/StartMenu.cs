@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Module7.Window;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -10,10 +11,6 @@ namespace Module7
 {
     class StartMenu
     {
-        protected bool FirstChoice;
-        protected bool SecondChoice;
-
-        
         virtual internal void UserSelect()
         {
             Console.WriteLine("Выберите нужное действие в панели инуструментов: ");
@@ -21,23 +18,21 @@ namespace Module7
             Console.WriteLine("2 - посмотреть список продуктов. ");
             Console.Write("Ваш выбор: ");
 
-            int userChoice = Convert.ToInt32(Console.ReadLine());
+            string userChoice = Console.ReadLine();
 
             while (true)
             {
                 switch (userChoice)
                 {
-                    case 1:
-                        FirstChoice = true;
-                        SecondChoice = false;
+                    case "1":
+                        MakeOrder makeOrder = new MakeOrder();
+                        makeOrder.UserSelect();
                         break;
-                    case 2:
+                    case "2":
                         ViewListProducts viewListProducts = new ViewListProducts();
                         viewListProducts.UserSelect();
                         break;
-                    default:
-                        Console.WriteLine("Вы ввели некорректное значение, повторите попытку!");
-                        break;
+                    
                 }
             }
         }

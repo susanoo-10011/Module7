@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Back.cs" />
     <Compile Include="Delivery\Base\DeliveryBase.cs" />
     <Compile Include="Delivery\Delivery.cs" />
     <Compile Include="Products\Apple.cs" />
@@ -52,11 +53,12 @@
     <Compile Include="Products\Beef.cs" />
     <Compile Include="Products\Buckwheat.cs" />
     <Compile Include="Products\Сake.cs" />
-    <Compile Include="StartMenu.cs" />
+    <Compile Include="Window\MakeOrder.cs" />
+    <Compile Include="Window\StartMenu.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewListProducts.cs" />
+    <Compile Include="Window\ViewListProducts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
