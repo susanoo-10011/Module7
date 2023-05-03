@@ -10,8 +10,10 @@ namespace Module7
 {
     class StartMenu
     {
-        protected static bool FirstChoice;
-        protected static bool SecondChoice;
+        protected bool FirstChoice;
+        protected bool SecondChoice;
+
+        
         virtual internal void UserSelect()
         {
             Console.WriteLine("Выберите нужное действие в панели инуструментов: ");
@@ -30,8 +32,8 @@ namespace Module7
                         SecondChoice = false;
                         break;
                     case 2:
-                        FirstChoice = false;
-                        SecondChoice = true;
+                        ViewListProducts viewListProducts = new ViewListProducts();
+                        viewListProducts.UserSelect();
                         break;
                     default:
                         Console.WriteLine("Вы ввели некорректное значение, повторите попытку!");
