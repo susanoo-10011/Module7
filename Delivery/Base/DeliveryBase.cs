@@ -9,5 +9,7 @@ namespace Module7.Delivery.Base
     abstract class DeliveryBase
     {
         public string Address;
+
     }
+
 }

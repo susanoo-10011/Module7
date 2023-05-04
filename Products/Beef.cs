@@ -9,7 +9,7 @@ namespace Module7.Products
 {
     internal class Beef<T> : Product<T>
     {
-        public Beef(string name, T price, T calorie) : base(name, price, calorie)
+        public Beef(string name, T price, T calorie, int number) : base(name, price, calorie, number)
         {
 
         }

@@ -11,13 +11,15 @@ namespace Module7.Products.Base
         public string Name { get; set; }
         public T Price { get; set; }
         public T Calorie { get; set; }
+        public int Number { get; set; }
 
 
-        public Product(string name, T price, T calorie) 
+        public Product(string name, T price, T calorie, int number ) 
         {
             Name = name;
             Price = price;
             Calorie = calorie;
+            Number = number;
         }
 
     }

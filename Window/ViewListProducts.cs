@@ -16,14 +16,9 @@ namespace Module7
             productListMenu.CreateListProducts();
             productListMenu.Menu();
 
-            Console.WriteLine();
+            Console.WriteLine("Нажмите 1, чтобы вернутся в главное меню");
 
             Back.BackStartMenu();
         }
-
-        
-
-
-
     }
 }

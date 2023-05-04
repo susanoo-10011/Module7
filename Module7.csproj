@@ -46,6 +46,7 @@
     <Compile Include="Back.cs" />
     <Compile Include="Delivery\Base\DeliveryBase.cs" />
     <Compile Include="Delivery\Delivery.cs" />
+    <Compile Include="Delivery\DeliveryTime.cs" />
     <Compile Include="Products\Apple.cs" />
     <Compile Include="Products\Banana.cs" />
     <Compile Include="Products\Base\Product.cs" />

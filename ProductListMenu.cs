@@ -14,11 +14,11 @@ namespace Module7
         public static Product<int>[] products = new Product<int>[5];
         public void CreateListProducts()
         {
-            products[0] = new Apple<int>("Яблоко", 55, 52);
-            products[1] = new Banana<int>("Банан", 129, 96);
-            products[2] = new Beef<int>("Говядина", 1500, 218);
-            products[3] = new Buckwheat<int>("Гречка", 150, 330);
-            products[4] = new Cake<int>("Торт", 3200, 500);
+            products[0] = new Apple<int>("Яблоко", 55, 52, 1);
+            products[1] = new Banana<int>("Банан", 129, 96, 2);
+            products[2] = new Beef<int>("Говядина", 1500, 218, 3);
+            products[3] = new Buckwheat<int>("Гречка", 150, 330, 4);
+            products[4] = new Cake<int>("Торт", 3200, 500, 5);
         }
 
         public void Menu()

@@ -15,7 +15,6 @@ namespace Module7
             StartMenu startMenu = new StartMenu();
             startMenu.UserSelect();
 
-
             Console.ReadKey();
         }
     }

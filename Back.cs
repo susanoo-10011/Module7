@@ -10,7 +10,6 @@ namespace Module7
     {
         public static void BackStartMenu()
         {
-            Console.Write("Нажмите 1, чтобы вернутся в главное меню: ");
             string back = Console.ReadLine();
 
             if (back == "1")

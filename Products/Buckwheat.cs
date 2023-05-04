@@ -9,7 +9,7 @@ namespace Module7.Products
 {
     internal class Buckwheat<T> : Product<T>
     {
-        public Buckwheat(string name, T price, T calorie) : base(name, price, calorie)
+        public Buckwheat(string name, T price, T calorie, int number) : base(name, price, calorie, number)
         {
 
         }
