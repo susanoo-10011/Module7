@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Module7.Products
 {
-    internal class Buckwheat<T> : Product<T>
+    internal class Buckwheat : Product
     {
-        public Buckwheat(string name, T price, T calorie, int number) : base(name, price, calorie, number)
+        public Buckwheat(string name, int price, double calorie, int volume) : base(name, price, calorie, volume)
         {
 
         }

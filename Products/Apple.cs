@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace Module7.Products
 {
-    internal class Apple<T> : Product<T>
+    internal class Apple : Product
     {
-        public Apple(string name, T price, T calorie, int number) : base (name, price, calorie, number)
+        public Apple(string name, int price, double calorie, int volume) : base (name, price, calorie,volume)
         {
 
         }
+
+        
     }
 }

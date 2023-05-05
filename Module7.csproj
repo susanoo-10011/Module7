@@ -53,6 +53,10 @@
     <Compile Include="ProductListMenu.cs" />
     <Compile Include="Products\Beef.cs" />
     <Compile Include="Products\Buckwheat.cs" />
+    <Compile Include="Products\ChocolateCake.cs" />
+    <Compile Include="Products\GreenApple.cs" />
+    <Compile Include="Products\HoneyCake.cs" />
+    <Compile Include="Products\RedApple.cs" />
     <Compile Include="Products\Сake.cs" />
     <Compile Include="Window\MakeOrder.cs" />
     <Compile Include="Window\StartMenu.cs" />

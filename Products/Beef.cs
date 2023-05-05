@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Module7.Products
 {
-    internal class Beef<T> : Product<T>
+    internal class Beef : Product
     {
-        public Beef(string name, T price, T calorie, int number) : base(name, price, calorie, number)
+        public Beef(string name, int price, double calorie, int volume) : base(name, price, calorie, volume)
         {
 
         }
