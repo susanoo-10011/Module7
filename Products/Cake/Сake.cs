@@ -6,7 +6,6 @@ namespace Module7.Products
     {
         public Cake(string name, int price, int orderNumber) : base(name, price, orderNumber)
         {
-
         }
     }
 }

@@ -43,25 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Back.cs" />
+    <Compile Include="AdditionalButtons\Back.cs" />
     <Compile Include="Delivery\Base\DeliveryBase.cs" />
     <Compile Include="Delivery\Delivery.cs" />
     <Compile Include="Delivery\DeliveryTime.cs" />
     <Compile Include="Delivery\DeliveryTimeExtension.cs" />
     <Compile Include="Products\Apple\Apple.cs" />
     <Compile Include="Products\Base\Product.cs" />
-    <Compile Include="ProductListMenu.cs" />
+    <Compile Include="Windows\MenuViewWindow\ProductMenu\ProductListMenu.cs" />
     <Compile Include="Products\Cake\ChocolateCake.cs" />
     <Compile Include="Products\Apple\GreenApple.cs" />
     <Compile Include="Products\Cake\HoneyCake.cs" />
     <Compile Include="Products\Apple\RedApple.cs" />
     <Compile Include="Products\Cake\Сake.cs" />
-    <Compile Include="Windows\MakeOrder.cs" />
-    <Compile Include="Windows\StartMenu.cs" />
-    <Compile Include="Order.cs" />
+    <Compile Include="Windows\OrderCreationWindow\MakeOrder.cs" />
+    <Compile Include="Windows\StartWindow\StartMenu.cs" />
+    <Compile Include="Windows\OrderCreationWindow\Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows\ViewListProducts.cs" />
+    <Compile Include="Windows\MenuViewWindow\ViewListProducts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,5 +1,4 @@
-﻿
-namespace Module7.Products
+﻿namespace Module7.Products
 {
     internal class ChocolateCake : Cake
     {

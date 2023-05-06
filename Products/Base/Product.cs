@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Module7.Products.Base
+﻿namespace Module7.Products.Base
 {
     public class Product
     {
@@ -8,7 +6,7 @@ namespace Module7.Products.Base
         public int Price { get; set; }
         public int OrderNumber { get; set; }
 
-        public Product(string name, int price, int orderNumber) 
+        public Product(string name, int price, int orderNumber)
         {
             Name = name;
             Price = price;

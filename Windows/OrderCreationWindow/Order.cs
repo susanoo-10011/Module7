@@ -8,10 +8,10 @@ namespace Module7
 
     class Order<TDelivery> where TDelivery : DeliveryBase
     {
-        public TDelivery Delivery;
-        public Order(TDelivery delivery)
+        private TDelivery Delivery;
+        public Order(TDelivery Delivery)
         {
-            Delivery = delivery;
+            this.Delivery = Delivery;
         }
         public void DisplayDeliveryTime()
         {

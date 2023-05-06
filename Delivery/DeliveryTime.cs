@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Module7.Delivery.Base;
+using System;
 
 namespace Module7.Delivery
 {
