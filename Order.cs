@@ -15,13 +15,17 @@ namespace Module7
         public int Number;
 
         public string Description;
-
-        public void DisplayAddress()
+        public Order(TDelivery delivery)
         {
-            Console.WriteLine(Delivery.Address);
+            Delivery = delivery;
         }
 
-        // ... Другие поля
+        public void DisplayDeliveryTime()
+        {
+            Delivery.DeliveryTime();
+        }
+
+        
     }
 
 }

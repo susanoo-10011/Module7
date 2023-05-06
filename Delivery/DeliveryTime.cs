@@ -10,7 +10,7 @@ namespace Module7.Delivery
     {
         public void CalculateDeliveryTime(double fromDeliveryTime, double toDeliveryTime)
         {
-            Console.WriteLine($"Доставка занимает примерно от {fromDeliveryTime} дней, до {toDeliveryTime} дней.");
+            Console.WriteLine($"Доставка займет примерно от {fromDeliveryTime} дней, до {toDeliveryTime} дней.");
         }
     }
 }

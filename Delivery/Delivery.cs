@@ -12,39 +12,42 @@ namespace Module7
     
     class HomeDelivery : DeliveryBase
     {
-        public void HomeDeliveryTime()
+        public override void DeliveryTime()
         {
             double fromDeliveruTime = 3.0;
             double toDeliveruTime = 5.0;
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
+            Console.ReadKey();
         }
     }
 
     class PickPointDelivery : DeliveryBase
     {
-        public void PickPointDeliveryTime()
+        public override void DeliveryTime()
         {
             double fromDeliveruTime = 1.0;
             double toDeliveruTime = 2.0;
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
-
+            Console.ReadKey();
 
         }
     }
 
     class ShopDelivery : DeliveryBase
     {
-        public void ShopDeliveryTime()
+        public override void DeliveryTime()
         {
             double fromDeliveruTime = 2.0;
             double toDeliveruTime = 3.0;
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
+            Console.ReadKey();
+
         }
     }
 }
