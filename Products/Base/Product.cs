@@ -13,9 +13,6 @@ namespace Module7.Products.Base
         public double Calorie { get; set; }
         public int Volume { get; set; }
 
-        
-
-
         public Product(string name, int price, double calorie, int volume) 
         {
             Name = name;

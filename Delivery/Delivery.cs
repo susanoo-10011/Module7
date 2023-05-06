@@ -15,9 +15,10 @@ namespace Module7
         public void HomeDeliveryTime()
         {
             double fromDeliveruTime = 3.0;
-            double ToDeliveruTime = 5.0;
+            double toDeliveruTime = 5.0;
             DeliveryTime deliveryTime = new DeliveryTime();
-            deliveryTime.AddTime(fromDeliveruTime, ToDeliveruTime);
+            deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
+            deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
         }
     }
 
@@ -28,7 +29,9 @@ namespace Module7
             double fromDeliveruTime = 1.0;
             double toDeliveruTime = 2.0;
             DeliveryTime deliveryTime = new DeliveryTime();
-            deliveryTime.AddTime(fromDeliveruTime, toDeliveruTime);
+            deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
+            deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
+
 
         }
     }
@@ -40,7 +43,8 @@ namespace Module7
             double fromDeliveruTime = 2.0;
             double toDeliveruTime = 3.0;
             DeliveryTime deliveryTime = new DeliveryTime();
-            deliveryTime.AddTime(fromDeliveruTime, toDeliveruTime);
+            deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
+            deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
         }
     }
 }

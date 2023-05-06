@@ -18,11 +18,7 @@ namespace Module7.Window
             productListMenu.CreateListProducts();
 
 
-            Console.WriteLine("Вы можете посчитать ");
 
-            var sum = ProductListMenu.products[0] + ProductListMenu.products[1];
         }
-
-
     }
 }

@@ -8,10 +8,9 @@ namespace Module7.Delivery
 {
     internal class DeliveryTime
     {
-        public void AddTime(double fromDeliveryTime, double ToDeliveryTime)
+        public void CalculateDeliveryTime(double fromDeliveryTime, double toDeliveryTime)
         {
-            DateTime now = DateTime.Now;
-            Console.WriteLine($"Ваша доставка оидается приблизительно {now.Date.AddDays(fromDeliveryTime)} - {now.Date.AddDays(ToDeliveryTime)}");
+            Console.WriteLine($"Доставка занимает примерно от {fromDeliveryTime} дней, до {toDeliveryTime} дней.");
         }
     }
 }
