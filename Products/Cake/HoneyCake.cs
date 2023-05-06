@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Module7.Products
 {
     internal class HoneyCake : Cake
@@ -13,7 +8,7 @@ namespace Module7.Products
             get { return "Медовый"; }
         }
 
-        public HoneyCake(string name, int price, double calorie, int volume) : base(name, price, calorie, volume)
+        public HoneyCake(string name, int price, int orderNumber) : base(name, price, orderNumber)
         {
         }
     }

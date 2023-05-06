@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module7.Products
+﻿namespace Module7.Products
 {
     internal class RedApple : Apple
     {
@@ -12,7 +6,7 @@ namespace Module7.Products
         {
             get { return "Красный"; } 
         }
-        public RedApple(string name, int price, double calorie, int volume) : base(name, price, calorie, volume) 
+        public RedApple(string name, int price, int orderNumber) : base(name, price, orderNumber) 
         {
         }
     }

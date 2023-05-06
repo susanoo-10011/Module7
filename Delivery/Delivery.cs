@@ -1,15 +1,8 @@
 ﻿using Module7.Delivery;
 using Module7.Delivery.Base;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Module7
 {
-    
     class HomeDelivery : DeliveryBase
     {
         public override void DeliveryTime()
@@ -19,7 +12,6 @@ namespace Module7
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
-            Console.ReadKey();
         }
     }
 
@@ -32,8 +24,6 @@ namespace Module7
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
-            Console.ReadKey();
-
         }
     }
 
@@ -46,8 +36,6 @@ namespace Module7
             DeliveryTime deliveryTime = new DeliveryTime();
             deliveryTime.CalculateDeliveryTime(fromDeliveruTime, toDeliveruTime);
             deliveryTime.UserDeliveryTime(fromDeliveruTime, toDeliveruTime);
-            Console.ReadKey();
-
         }
     }
 }

@@ -1,11 +1,6 @@
 ﻿using Module7.Products;
 using Module7.Products.Base;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Module7
 {
@@ -14,10 +9,10 @@ namespace Module7
         public static Product[] products = new Product[6];
         public void CreateListProducts()
         {
-            products[0] = new GreenApple("Яблоко", 55, 50, 100);
-            products[1] = new RedApple("Яблоко", 60, 62, 100);
-            products[2] = new ChocolateCake("Торт", 3200, 600, 100);
-            products[3] = new HoneyCake("Торт", 3500, 450, 100);
+            products[0] = new GreenApple("Зеленое яблоко", 55, 1);
+            products[1] = new RedApple("Красное яблоко", 60, 2);
+            products[2] = new ChocolateCake("Шоколадный торт", 3200, 3);
+            products[3] = new HoneyCake("Медовый торт", 3500, 4);
         }
 
         public void Menu()

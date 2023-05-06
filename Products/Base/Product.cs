@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Module7.Products.Base
 {
@@ -10,24 +6,21 @@ namespace Module7.Products.Base
     {
         public string Name { get; set; }
         public int Price { get; set; }
-        public double Calorie { get; set; }
-        public int Volume { get; set; }
+        public int OrderNumber { get; set; }
 
-        public Product(string name, int price, double calorie, int volume) 
+        public Product(string name, int price, int orderNumber) 
         {
             Name = name;
             Price = price;
-            Calorie = calorie;
-            Volume = volume;
+            OrderNumber = orderNumber;
         }
 
         public static Product operator +(Product productOne, Product productTwo)
         {
-            var calories = Math.Round((productOne.Calorie + productTwo.Calorie) / 2.0);
-            var name = productOne.Name;
-            var volume = productOne.Volume + productTwo.Volume;
+            string name = null;
+            var orderNumber = 0;
             var price = productOne.Price + productTwo.Price;
-            var product = new Product(name, price, calories, volume);
+            var product = new Product(name, price, orderNumber);
             return product;
         }
     }
